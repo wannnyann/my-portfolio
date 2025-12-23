@@ -1,0 +1,24 @@
+
+
+my-portfolio(Section6のリメイク版。)
+
+## Tech Stack
+### Frontend 
+- Next.js 16.1.10(最新版) 
+- TypeScript 
+- Tailwind CSS 
+- Node.js
+
+### Backend / Auth 
+- Firebase Authentication 
+- Express
+- TypeScript
+
+### Database 
+- PostgreSQL
+
+## How to Run
+npm install  
+npm run dev
+
+最初に GitHub から clone せずに、自分のローカルで作ったため main に直接 push しております…。
