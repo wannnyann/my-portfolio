@@ -1,4 +1,4 @@
-
+# section6
 
 my-portfolio(Section6のリメイク版。)
 
@@ -11,7 +11,7 @@ my-portfolio(Section6のリメイク版。)
 
 ### Backend / Auth 
 - Firebase Authentication 
-- Express
+- Expresss
 - TypeScript
 
 ### Database 
