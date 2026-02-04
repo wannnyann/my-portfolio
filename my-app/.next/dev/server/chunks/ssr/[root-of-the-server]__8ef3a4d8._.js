@@ -1,0 +1,92 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[project]/study/my-portfolio/my-app/src/firebase.client.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// src/firebase.client.ts
+__turbopack_context__.s([
+    "auth",
+    ()=>auth
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$firebase$2f$app$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/node_modules/firebase/app/dist/index.mjs [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/node_modules/@firebase/app/dist/esm/index.esm.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$firebase$2f$auth$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/node_modules/firebase/auth/dist/index.mjs [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f40$firebase$2f$auth$2f$dist$2f$node$2d$esm$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/node_modules/@firebase/auth/dist/node-esm/index.js [app-ssr] (ecmascript)");
+;
+;
+const firebaseConfig = {
+    apiKey: ("TURBOPACK compile-time value", "AIzaSyADbcE-GFwhHvNOcL4LyYWpyvvvufaWvXM"),
+    authDomain: ("TURBOPACK compile-time value", "my-portfolio-54009.firebaseapp.com"),
+    projectId: ("TURBOPACK compile-time value", "my-portfolio-54009"),
+    storageBucket: ("TURBOPACK compile-time value", "my-portfolio-54009.firebasestorage.app"),
+    messagingSenderId: ("TURBOPACK compile-time value", "123511252742"),
+    appId: ("TURBOPACK compile-time value", "1:123511252742:web:22106e324b4121db8c6087")
+};
+const app = (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["initializeApp"])(firebaseConfig);
+const auth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f40$firebase$2f$auth$2f$dist$2f$node$2d$esm$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getAuth"])(app);
+}),
+"[project]/study/my-portfolio/my-app/app/admin/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>AdminPage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$src$2f$firebase$2e$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/study/my-portfolio/my-app/src/firebase.client.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+function AdminPage() {
+    const [user, setUser] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const unsub = __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$src$2f$firebase$2e$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["auth"].onAuthStateChanged((u)=>setUser(u));
+        return ()=>unsub();
+    }, []);
+    if (!user) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        children: "ログイン中..."
+    }, void 0, false, {
+        fileName: "[project]/study/my-portfolio/my-app/app/admin/page.tsx",
+        lineNumber: 15,
+        columnNumber: 21
+    }, this);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        style: {
+            padding: 40
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                children: "管理者ページ"
+            }, void 0, false, {
+                fileName: "[project]/study/my-portfolio/my-app/app/admin/page.tsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$study$2f$my$2d$portfolio$2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                children: [
+                    "ログイン中ユーザー: ",
+                    user.email
+                ]
+            }, void 0, true, {
+                fileName: "[project]/study/my-portfolio/my-app/app/admin/page.tsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/study/my-portfolio/my-app/app/admin/page.tsx",
+        lineNumber: 18,
+        columnNumber: 5
+    }, this);
+}
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__8ef3a4d8._.js.map
