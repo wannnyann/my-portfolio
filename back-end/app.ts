@@ -11,7 +11,9 @@ app.use("/profile", profileRoutes);
 app.use("/achievements", achievementsRoutes);
 app.use("/skills", skillsRoutes);
 
+const PORT = Number(process.env.PORT) || 8000;
+
 // サーバー起動
-app.listen(3001, () => {
-  console.log("Server running on http://localhost:3001");
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
 });
