@@ -44,7 +44,7 @@ export default async function Home() {
           />
           <div className="space-y-4">
             <h3 className="text-4xl font-semibold text-green-700 dark:text-zinc-50 leading-loose">
-              プロフィール({profile.name})
+              プロフィール ({profile.name})
             </h3>
             <p className="text-2xl leading-loose whitespace-pre-wrap">
               {profile.bio}
@@ -59,7 +59,10 @@ export default async function Home() {
               実績
             </h4>
             <ul className="text-2xl leading-loose">
-              {(Array.isArray(achievements) ? achievements : achievements?.data ?? []).map((a: Achievement) => (
+              {(Array.isArray(achievements)
+                ? achievements
+                : (achievements?.data ?? [])
+              ).map((a: Achievement) => (
                 <li key={a.id}>{a.title}</li>
               ))}
             </ul>
