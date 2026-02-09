@@ -3,20 +3,20 @@ import Link from "next/link";
 import { Achievement, Skill } from "@/lib/types";
 
 async function getProfile() {
-  const res = await fetch("http://localhost:3001/profile", {
+  const res = await fetch("http://localhost:8000/profile", {
     cache: "no-store",
   });
   return res.json();
 }
 
 async function getAchievements() {
-  const res = await fetch("http://localhost:3001/achievements", {
+  const res = await fetch("http://localhost:8000/achievements", {
     cache: "no-store",
   });
   return res.json();
 }
 async function getSkills() {
-  const res = await fetch("http://localhost:3001/skills", {
+  const res = await fetch("http://localhost:8000/skills", {
     cache: "no-store",
   });
   return res.json();
@@ -44,7 +44,7 @@ export default async function Home() {
           />
           <div className="space-y-4">
             <h3 className="text-4xl font-semibold text-green-700 dark:text-zinc-50 leading-loose">
-              プロフィール({profile.name})
+              プロフィール ({profile.name})
             </h3>
             <p className="text-2xl leading-loose whitespace-pre-wrap">
               {profile.bio}
@@ -59,7 +59,10 @@ export default async function Home() {
               実績
             </h4>
             <ul className="text-2xl leading-loose">
-              {achievements.map((a: Achievement) => (
+              {(Array.isArray(achievements)
+                ? achievements
+                : (achievements?.data ?? [])
+              ).map((a: Achievement) => (
                 <li key={a.id}>{a.title}</li>
               ))}
             </ul>
